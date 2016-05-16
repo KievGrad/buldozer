@@ -1,1 +1,10 @@
+<<<<<<< HEAD
 node_modules/
+=======
+*.zip
+*.rar
+*.7z
+node_modules/
+.DS_Store
+Thumbs.db
+>>>>>>> a16454c15a440d5f29896ba636a252c97dfbabdd

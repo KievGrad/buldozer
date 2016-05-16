@@ -1,4 +1,4 @@
-﻿body{
+body{
 	font-size: 1.125em;
 	font-family: Verdana, sans-serif;
 }
@@ -6,12 +6,10 @@
 	margin: 0 auto;
 	width: 100%;
 	max-width: 1000px;
-}
-span{
-	display: block;
-	margin: 0 auto;
+	position: relative;
 }
 /*grid*/
+
 .row:after{
 	content: '';
 	display: block;
@@ -43,23 +41,4 @@ span{
 }
 .xs8{
 	width: 100%;
-}
-/*header*/
-.header{
-	background-color: #3f4142;
-	padding: 14px 0;
-}
-.logo{
-	text-align: center;
-}
-.button{
-	display: block;
-	width: 250px;
-	height: 50px;
-	background: linear-gradient(to bottom, #b07f00 0%, #f3af00 100%);
-	border: none;
-	margin: 0 auto;
-}
-.phone{
-	
 }
