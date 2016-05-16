@@ -138,16 +138,9 @@ body {
   margin: 0 auto;
   width: 100%;
   max-width: 1000px;
+  position: relative;
 }
 
-<<<<<<< HEAD
-span {
-  display: block;
-  margin: 0 auto;
-}
-
-=======
->>>>>>> a16454c15a440d5f29896ba636a252c97dfbabdd
 /*grid*/
 
 .row:after {
@@ -191,7 +184,6 @@ span {
 .xs8 {
   width: 100%;
 }
-
 /*header*/
 
 .header {
@@ -199,27 +191,108 @@ span {
   padding: 14px 0;
 }
 
+.header-box {
+  margin-bottom: 10px;
+}
+
+.header-box:last-child {
+  margin-bottom: 0;
+}
+
 .logo {
   text-align: center;
 }
 
 .button {
-<<<<<<< HEAD
-  display: block;
-=======
->>>>>>> a16454c15a440d5f29896ba636a252c97dfbabdd
   width: 250px;
   height: 50px;
   background: linear-gradient(to bottom, #b07f00 0%, #f3af00 100%);
   border: none;
   margin: 0 auto;
-<<<<<<< HEAD
-=======
   display: block;
->>>>>>> a16454c15a440d5f29896ba636a252c97dfbabdd
 }
 
+.phone {
+  display: inline-block;
+  padding-left: 16px;
+  background: url("../img/phone.png") no-repeat left center;
+  font-family: "Tahoma";
+  line-height: 1.33333333rem;
+}
 
+.phone-wrap {
+  text-align: center;
+}
+
+.phone span {
+  display: block;
+  text-align: center;
+}
+
+.phone-text {
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: underline;
+}
+
+.phone-number {
+  color: #f3af00;
+  font-size: 1.33333333rem;
+}
+.banner {
+  background-color: #949ba3;
+  text-align: center;
+  padding-top: 49px;
+  color: white;
+}
+
+.slider {
+  display: none;
+  overflow: hidden;
+}
+
+.slider img {
+  width: 100%;
+}
+
+.banner-header {
+  font-family: "Times new roman";
+}
+
+.banner-header h1 {
+  font-size: 2.666666rem;
+}
+
+.banner-header h2 {
+  font-size: 1.666666rem;
+}
+
+.banner-wrap {
+  position: relative;
+}
+
+.feedback {
+  background-color: #4a4d51;
+  font-size: 0;
+}
+
+.feedback >* {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+}
+
+.feedback-header h1 {
+  font-size: 1.666666rem;
+  color: #f3af00;
+  margin-bottom: 32px;
+  padding-top: 50px;
+}
+
+.feedback-header h2 {
+  font-size: 1rem;
+  padding-bottom: 50px;
+}
 @media screen and (min-width: 800px) {
   .m1 {
     width: 12.5%;
@@ -253,8 +326,14 @@ span {
     width: 100%;
   }
 
+  .header {
+    padding: 30px 0;
+  }
+
   .button {
     width: 100%;
+    position: relative;
+    top: -6px;
   }
 }
 
@@ -293,5 +372,23 @@ span {
 
   .button {
     width: 50%;
+    height: 36px;
+  }
+
+  .phone {
+    margin-left: 90px;
+    line-height: 1rem;
+  }
+
+  .phone-wrap {
+    text-align: right;
+  }
+
+  .phone-number {
+    font-size: 1rem;
+  }
+
+  .phone-text {
+    font-size: 0.77777777rem;
   }
 }
